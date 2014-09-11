@@ -28,6 +28,8 @@ http://www.akira.ruc.dk/~keld/teaching/CAN_e13/Readings/gdb.pdf
 
 to work with gdb
 
+gdb <.asm>
+
 prompt]$ gdb <file name>
 
 (gdb) break _start 
