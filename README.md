@@ -30,7 +30,7 @@ to work with gdb
 
 gdb <.asm>
 
-prompt]$ gdb file name
+prompt]$ gdb hello
 
 (gdb) break _start 
 
