@@ -13,7 +13,7 @@ ld -o hello hello.o
 
 *replace hello with source file*
 
-**for 32-bit LINUX**
+**for 64-bit LINUX**
 
 nasm -f elf64 -l hello.lst hello.asm
 
