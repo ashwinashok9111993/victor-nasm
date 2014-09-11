@@ -25,3 +25,25 @@ ld -o hello hello.o
 **Please refer GDB usage here**
 
 http://www.akira.ruc.dk/~keld/teaching/CAN_e13/Readings/gdb.pdf
+
+to work with gdb
+
+prompt]$ gdb <file name>
+
+(gdb) break _start 
+
+*here is where the program starts*
+
+(gdb) run
+
+*run till _start is reached*
+
+(gdb) si
+
+*step one instruction*
+
+(gdb) info registers
+
+*read register data*
+
+**repeat last two gdb steps till end of program**
