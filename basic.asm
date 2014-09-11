@@ -1,3 +1,4 @@
+;Simple demo program 
 section .data
 
 section .bss
