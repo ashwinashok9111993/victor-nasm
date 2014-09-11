@@ -21,3 +21,7 @@ ld -o hello hello.o
 
 
 *replace hello with source file*
+
+**Please refer GDB usage here**
+
+http://www.akira.ruc.dk/~keld/teaching/CAN_e13/Readings/gdb.pdf
