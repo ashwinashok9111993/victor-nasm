@@ -1,4 +1,4 @@
-section .data
+.section .data
 values: .int 10,20,30,40,50,60,80,90,100
 values1: .int 11,22,33,44,55,66,77,88,110
 
