@@ -1,13 +1,29 @@
 Gas - assembler
 ===============
 
-refer to the cose examples here:
+refer to the code examples here:
 
 http://www.wrox.com/WileyCDA/WroxTitle/Professional-Assembly-Language.productCd-0764579010,descCd-DOWNLOAD.html
 
+**for 64 bit**
 
+assemble:
 
+as basic.s -o basic.o --32 --gstabs -mtune=i386
 
+link:
+
+ld basic.o -o basic -m32
+
+**for 32 bit**
+
+assemble:
+
+as basic.s -o basic.o --32 --gstabs -mtune=i386
+
+link:
+
+ld basic.o -o basic -m32
 
 
 
