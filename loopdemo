@@ -1,0 +1,22 @@
+.section .data
+str: .asciz "the value is %d \n"
+.section .bss
+.lcomm buffer,2
+.section .text
+.globl main
+main:
+        movl $4,%ecx
+        movl $5,%ebx
+l1:     nop
+        pushl %ecx
+        pushl %ebx
+        pushl $str
+        call printf
+        addl $8,%esp
+        pop %ecx
+        dec %ecx
+        jnz l1
+        pushl $0
+        call exit
+
+
