@@ -25,7 +25,11 @@ link:
 
 ld basic.o -o basic 
 
+if you are using external functions
 
+link using
+
+gcc basic.o -o basic
 
 
 
