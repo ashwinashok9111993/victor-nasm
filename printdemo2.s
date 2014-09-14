@@ -1,4 +1,4 @@
-section .data
+.section .data
 hello: .asciz "hello world!\n"
 .section .bss
 .section .text
