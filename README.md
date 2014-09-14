@@ -13,17 +13,17 @@ as basic.s -o basic.o --32 --gstabs -mtune=i386
 
 link:
 
-ld basic.o -o basic -m32
+ld basic.o -o basic -mi386
 
 **for 32 bit**
 
 assemble:
 
-as basic.s -o basic.o --32 --gstabs -mtune=i386
+as basic.s -o basic.o --32 --gstabs 
 
 link:
 
-ld basic.o -o basic -m32
+ld basic.o -o basic 
 
 
 
